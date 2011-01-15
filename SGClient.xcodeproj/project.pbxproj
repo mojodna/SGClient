@@ -720,8 +720,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "SG_DEBUG=1";
 				HEADER_SEARCH_PATHS = Classes;
 				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = SGClient;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -737,9 +738,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "SG_DEBUG=1";
 				HEADER_SEARCH_PATHS = "Classes/**";
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = SGClient;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -753,7 +754,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -794,6 +795,7 @@
 					"Resources/3rd-Party/**",
 				);
 				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -804,7 +806,7 @@
 				PREBINDING = NO;
 				PRODUCT_NAME = SGClientTests;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphonesimulator4.1;
+				SDKROOT = iphoneos;
 				VERSION_INFO_PREFIX = "";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -825,6 +827,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				INFOPLIST_FILE = "SGClientTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -835,7 +838,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = SGClientTests;
-				SDKROOT = iphoneos4.0;
+				SDKROOT = iphoneos;
 				VERSION_INFO_PREFIX = Resources/SGClient_Prefix.pch;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
