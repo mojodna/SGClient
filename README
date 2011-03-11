@@ -1,8 +1,7 @@
-PLEASE NOTE: If you're using SimpleGeo Context or Places, please use
-SimpleGeo.framework (https://github.com/simplegeo/SimpleGeo.framework). This
-library will only be useful to you if you are using SimpleGeo Storage
-exclusively. Storage functionality will be added to SimpleGeo.framework before
-it enters public beta.
+PLEASE NOTE: This has been (mostly) replaced by SimpleGeo.framework
+(https://github.com/simplegeo/SimpleGeo.framework). It is not a one for one
+replacement; SGClient includes a number of utility classes and methods when
+doing iOS development. We intend to extract these over tiem.
 
 SGClient v0.4.1
 
