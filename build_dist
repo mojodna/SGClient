@@ -29,12 +29,7 @@ do
   cp $header_file $HEADER_DIR/
 done
 
-if [ $1 ]; then
-  VERSION=$1
-else
-  VERSION=4.1
-fi
-SDKs=( iphoneos$VERSION iphonesimulator$VERSION )
+SDKs=( iphoneos iphonesimulator )
 
 for sdk in ${SDKs[@]}
 do
